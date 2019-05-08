@@ -3,7 +3,7 @@ tslint-sf-react
 
 Lint rules related to React & JSX for [TSLint](https://github.com/palantir/tslint/).
 
-### Usage
+## Usage
 
 tslint-sf-react has peer dependencies on TSLint and TypeScript.
 
@@ -20,4 +20,6 @@ Here's a sample configuration where `tslint.json` lives adjacent to your `node_m
 }
 ```
 
-### Rules
+## Rules
+
+  [detail rules](https://github.com/SFTC/tslint-sf-react/blob/master/RULES.md)

@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/palantir/tslint-react.git"
+    "url": "https://github.com/SFTC/tslint-sf-react.git"
   },
   "license": "Apache-2.0"
 }
