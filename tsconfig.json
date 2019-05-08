@@ -1,0 +1,31 @@
+{
+    "version": "3.1.6",
+    "compilerOptions": {
+        "declaration": true,
+        "lib": ["es6"],
+        "module": "commonjs",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "outDir": "build/",
+        "rootDir": "src/",
+        "sourceMap": false,
+        "strict": true,
+        "target": "es5",
+        "plugins": [
+            {
+                "name": "typescript-tslint-plugin",
+                "alwaysShowRuleFailuresAsWarnings": true,
+                "ignoreDefinitionFiles": true,
+                "configFile": "./tslint.json"
+            }
+        ]
+    },
+    "exclude": [
+        "build",
+        "node_modules",
+        "test/rules"
+    ]
+}
