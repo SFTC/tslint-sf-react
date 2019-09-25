@@ -1,5 +1,5 @@
 {
-    "extends": ["tslint:recommended"],
+    "extends": ["tslint:recommended", "tslint-react-hooks"],
     "rulesDirectory": "./rules",
     "rules": {
         "jsx-alignment": true,
@@ -18,6 +18,8 @@
         "ordered-imports": false,
         "object-literal-sort-keys": false,
         "quotemark": false,
-        "indent": [true, "spaces", 2]
+        "indent": [true, "spaces", 2],
+
+        "react-hooks-nesting": "error"
     }
 }

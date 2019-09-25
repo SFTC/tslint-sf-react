@@ -1,4 +1,5 @@
-tslint-sf-react
+# tslint-sf-react
+
 ------------
 
 Lint rules related to React & JSX for [TSLint](https://github.com/palantir/tslint/).
@@ -6,6 +7,10 @@ Lint rules related to React & JSX for [TSLint](https://github.com/palantir/tslin
 ## Usage
 
 tslint-sf-react has peer dependencies on TSLint and TypeScript.
+
+``` sh
+npm install --save-dev tslint-sf-react typescript@3.x tslint@5.x
+```
 
 To use these lint rules with the default preset, use configuration inheritance via the `extends` keyword.
 Here's a sample configuration where `tslint.json` lives adjacent to your `node_modules` folder:

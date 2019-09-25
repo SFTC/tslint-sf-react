@@ -1,5 +1,5 @@
 {
-    "extends": "tslint:latest",
+    "extends": ["tslint:latest", "tslint-react-hooks"],
     "rules": {
         "file-header": {
             "options": ["Copyright \\d{4} Palantir Technologies, Inc."]
