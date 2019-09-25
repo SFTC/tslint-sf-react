@@ -1,6 +1,6 @@
 {
   "name": "tslint-sf-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lint rules related to React & JSX for TSLint",
   "main": "tslint-sf-react.json",
   "scripts": {
@@ -12,7 +12,8 @@
     "verify": "run-s build lint test"
   },
   "dependencies": {
-    "tsutils": "^3.9.1"
+    "tsutils": "^3.9.1",
+    "tslint-react-hooks": "^2.2.1"
   },
   "peerDependencies": {
     "tslint": "^5.1.0",
@@ -28,7 +29,6 @@
     "npm-run-all": "^4.1.5",
     "path": "^0.12.7",
     "tslint": "^5.16.0",
-    "tslint-react-hooks": "^2.2.1",
     "typescript": "^3.4.1",
     "typescript-tslint-plugin": "^0.3.1"
   },

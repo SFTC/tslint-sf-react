@@ -28,3 +28,7 @@ Here's a sample configuration where `tslint.json` lives adjacent to your `node_m
 ## Rules
 
   [detail rules](https://github.com/SFTC/tslint-sf-react/blob/master/RULES.md)
+
+## Version
+
+v1.0.1 Add hooks rules;
